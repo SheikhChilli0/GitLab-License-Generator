@@ -14,7 +14,7 @@
 
 **GitLab License Generator** This project generates a GitLab license for **development purposes**. If you encounter any problems, please troubleshoot them on your own.
 
-> Last tested on GitLab v17.6.0-ee.
+> Last tested on GitLab v17.7.0-ee.
 
 ## Principles
 
@@ -33,42 +33,8 @@ Removed with a script to generate empty json file due to DMCA takedown request.
 ~~Features are extracted from an object filled with constants. The most comprehensive plan for a license is **Ultimate**, but features like Geo Mirroring are not included in any standard plan. Therefore, we manually add these features.~~
 
 ## Usage
-
-### Using Docker image (Zero setup)
-
-Using this method license files are generated under `./license` directory
-> Please note that in standard docker installations, owner of the files generated in license directory will be root
-
-#### Method (1): Pull image
-
-```bash
-docker run --rm -it \
-  -v "./license:/license-generator/build" \
-  -e LICENSE_NAME="Tim Cook" \
-  -e LICENSE_COMPANY="Apple Computer, Inc." \
-  -e LICENSE_EMAIL="tcook@apple.com" \
-  -e LICENSE_PLAN="ultimate" \
-  -e LICENSE_USER_COUNT="2147483647" \
-  -e LICENSE_EXPIRE_YEAR="2500" \
-  ghcr.io/lakr233/gitlab-license-generator:main
-```
-
-#### Method (2): Build image
-
-```bash
-git clone https://github.com/Lakr233/GitLab-License-Generator.git
-docker build GitLab-License-Generator -t gitlab-license-generator:main
-docker run --rm -it \
-  -v "./license:/license-generator/build" \
-  -e LICENSE_NAME="Tim Cook" \
-  -e LICENSE_COMPANY="Apple Computer, Inc." \
-  -e LICENSE_EMAIL="tcook@apple.com" \
-  -e LICENSE_PLAN="ultimate" \
-  -e LICENSE_USER_COUNT="2147483647" \
-  -e LICENSE_EXPIRE_YEAR="2500" \
-  gitlab-license-generator:main
-```
-
+## Remove Docker manual as i am not gonna support it.
+## Just go manual or shell into a docker container with ubuntu 22.04. 
 ### Manual: Prerequisites
 
 Before starting, ensure your environment is properly configured.
@@ -113,7 +79,7 @@ gem install gitlab-license
 Clone this project to your local machine.
 
 ```bash
-git clone https://github.com/Lakr233/GitLab-License-Generator.git
+git clone https://github.com/SheikhChilli0/GitLab-License-Generator.git
 cd GitLab-License-Generator
 ```
 
@@ -207,4 +173,8 @@ If you want to disable GitLab’s usage data collection (Service Ping), modify G
 
 This project is licensed under the **WTFPL License**.
 
-Copyright (c) 2023, Tim Cook, All Rights Not Reserved.
+##For Reporting Violations or any takedown requests
+kindly email at: itshardtolive@bigcock.life
+**The email is genuine and domain is owned by me
+
+Copyright (c) 2024, Tim Cook, All Rights Not Reserved.
