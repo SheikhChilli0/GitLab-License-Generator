@@ -93,7 +93,7 @@ FEATURE_LIST_FILE=$BUILD_DIR/features.json
 rm -f "${FEATURE_LIST_FILE:?}" || true
 ./src/scan.features.rb \
     -o "$FEATURE_LIST_FILE" \
-    -f "$GITLAB_SOURCE_CODE_DIR/features.rb"
+    -s "$GITLAB_SOURCE_CODE_DIR"
 
 echo "[*] generating key pair..."
 PUBLIC_KEY_FILE=$BUILD_DIR/public.key
