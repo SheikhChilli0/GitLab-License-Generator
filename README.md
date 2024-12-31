@@ -176,3 +176,8 @@ kindly email at: itshardtolive@bigcock.life
 **The email is genuine and domain is owned by me
 
 Copyright (c) 2024, Tim Cook, All Rights Not Reserved.
+
+## EXTRA
+If The Ruby Gem Goes Out of service and gitlab changes some minor things still in license.
+I can still do it. tho its mainly for my personal git. I am not using all the features like an enterprise.
+If you use it for Neferaious purposes. DON'T. Support the DEVS too.
