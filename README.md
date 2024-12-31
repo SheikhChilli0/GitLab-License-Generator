@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="README.md">English</a> |
-  <a href="lang/README_FR.md">Français</a> |
-  <a href="lang/README_RU.md">Russian</a>
 </p>
 
 </div>
