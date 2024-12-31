@@ -11,3 +11,27 @@ as the name is changed.
   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+ON This Specific Commit at this moment.
+The licsnse Explicity forbids certain things for production. but "Notwithstanding" factor of 
+specific testing environment can be achieved.
+At the end of the term.
+Now To help the developers.
+Subject to the
+foregoing, it is forbidden to copy, merge, publish, distribute, sublicense,
+and/or sell the Software.
+Also its forbidden to use it any production commercial usage. By this license.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+This part explicitly describes without Warranty
+https://gitlab.com/gitlab-org/gitlab/-/commit/8672550cdad481b42625e595a45a5b9e43e276e3
+
+Otherwise Explicitly Stated. It would remain True or same.
+In event of change of Gitlab EE license. Further modifications can be made.
